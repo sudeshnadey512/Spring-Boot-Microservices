@@ -1,0 +1,26 @@
+server.port: 8081
+
+  my:
+    greeting: Hello World
+    list:
+      values: one,two,three
+
+  dbValues: "{connectionString: 'http://__' ,userName:'sudeshna' , password:'sudeshna'}"
+
+  db:
+    connection: "{connectionString: 'http://__' , userName:'sudeshna' , password:'sudeshna'}"
+    host: 127.0.0.1
+    port: 1200
+
+  management.endpoints.web.exposure.include: "*"
+
+  app:
+    name: My App
+    description: Welcome to ${app.name}
+
+  spring.profiles.active: test
+
+
+
+
+
