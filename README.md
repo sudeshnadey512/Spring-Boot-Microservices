@@ -31,5 +31,13 @@ Hystrix Dashboard
 
 Fallback
 
-Spring Security-[login , logout]
+Configure Properties file
 
+configure YAML file
+
+Spring profiles
+
+Spring Cloud Config Server
+
+Spring Security-[login , logout]
+Used InMemoryAuthentication
